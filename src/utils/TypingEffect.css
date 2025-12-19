@@ -1,0 +1,17 @@
+/* TypingEffect.css */
+.typing-text {
+  overflow: hidden; /* 글자가 넘치지 않게 */
+  white-space: nowrap; /* 한 줄로 표시 */
+  border-right: 0.15em solid orange; /* 커서 */
+  animation: blink-caret 0.75s step-end infinite;
+}
+
+@keyframes blink-caret {
+  from,
+  to {
+    border-color: transparent;
+  }
+  50% {
+    border-color: orange;
+  }
+}
