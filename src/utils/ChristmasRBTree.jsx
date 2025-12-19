@@ -63,12 +63,9 @@ const TreeNode = ({ node, delay = 0 }) => {
 };
 
 // 메인 트리 컴포넌트
-const DevChristmasTree = () => {
+const ChristmasRBTree = () => {
   return (
     <div className="min-h-screen bg-slate-100 p-20 flex flex-col items-center">
-      <h1 className="text-3xl font-bold mb-10 text-slate-800">
-        🎄 2025 Happy RB-Tree Debugging!
-      </h1>
       <div className="relative">
         <TreeNode node={treeData} />
       </div>
@@ -76,4 +73,4 @@ const DevChristmasTree = () => {
   );
 };
 
-export default DevChristmasTree;
+export default ChristmasRBTree;
