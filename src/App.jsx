@@ -6,8 +6,8 @@ function App() {
   return (
     <>
       <div>
-        <h1>🎄 Merry Christmas 🎄</h1>
         <StarTree />
+        <h1>🎄 Merry Christmas 🎄</h1>
         <TypingEffect
           text={"We wish you a merry christmas\n and a happy New 2026 !"}
         />

@@ -1,7 +1,7 @@
 import React from "react";
 
 export default function StarTree({
-  height = 5,
+  height = 12,
   startStars = 1,
   step = 2,
   center = true,
